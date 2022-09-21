@@ -131,6 +131,8 @@ Now, run our app from our WebAssembly binary with the `wasmtime` runtime.
 wasmtime /workspaces/explore-dotnet-wasi/dotnet/WasiApp/bin/Debug/net7.0/WasiApp.wasm
 ```
 
+That's neat. No difference to the developer or end-user.
+
 ## What's in a WebAssembly Binary?
 
 There are many tools to inspect and interact with WebAssembly binaries.
