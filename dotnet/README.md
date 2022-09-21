@@ -111,7 +111,11 @@ wc -c /workspaces/explore-dotnet-wasi/dotnet/WasiApp/bin/Debug/net7.0/WasiApp.wa
 
 Huh. Why is it ~9MB?
 
-WASI executes just a single binary. The `dotnet build` command built a `.wasm` that contains not just our dependencies, but the .NET runtime (like a [standalone dotnet application](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli)) and all the infrastructure needed to call and execute our dependencies in WebAssembly.
+WebAssembly loads and executes just a single binary. 
+
+The `dotnet build` command built a `.wasm` that contains not just our dependencies, but the .NET runtime (like a [standalone dotnet application](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli)) and all the infrastructure needed to call and execute our dependencies in WebAssembly. 
+
+It's important to know that you won't be amortizing .NET warm-up time across multiple calls, but the entire application will be spun-up and spun-down on every call.
 
 ## Run the app
 
