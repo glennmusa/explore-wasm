@@ -4,7 +4,7 @@ A repository to explore [WebAssembly System Interface (WASI)](https://github.com
 
 ## Development Tools
 
-This repository specifies a Visual Studio Code [devcontainer.json](.devcontainer/devcontainer.json) and [Docker image](.devcontainer/Dockerfile) that gives you all the prerequisites and preview versions of software you need to begin building and running WebAssembly binaries in dotnet with the [wasmtime runtime](https://github.com/bytecodealliance/wasmtime).
+This repository specifies a Visual Studio Code [devcontainer.json](.devcontainer/devcontainer.json) and [Docker image](.devcontainer/Dockerfile) that gives you all the prerequisites and preview versions of software you need to begin building and running WebAssembly binaries in dotnet, Rust, and Go with the [wasmtime runtime](https://github.com/bytecodealliance/wasmtime).
 
 It's very easy to [open this repository in a GitHub CodeSpace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace#creating-a-codespace), otherwise [follow these instructions to open this repository in a DevContainer locally](https://code.visualstudio.com/docs/remote/containers).
 
