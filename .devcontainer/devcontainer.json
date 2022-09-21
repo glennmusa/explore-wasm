@@ -4,25 +4,26 @@
 	"name": "Ubuntu",
 	"build": {
 		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
-		// Use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon.
-		"args": { 
+		"args": {
 			"USER": "vscode",
-			"VARIANT": "ubuntu-22.04" 
+			"VARIANT": "ubuntu-22.04"
 		}
 	},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "curl https://wasmtime.dev/install.sh -sSf | bash",
-
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {
-		"azure-cli": "latest",
-		"golang": "latest",
-		"rust": "latest"
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/dotnet:1": {
+			"version": "7.0.100-preview.7.22377.5",
+			"installUsingApt": false
+		},
+		"ghcr.io/devcontainers/features/go:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version": "latest"
+		}
 	}
 }
