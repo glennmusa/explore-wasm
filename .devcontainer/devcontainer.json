@@ -25,5 +25,13 @@
 		"ghcr.io/devcontainers/features/rust:1": {
 			"version": "latest"
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dtsvet.vscode-wasm",
+				"bierner.markdown-preview-github-styles"
+			]
+		}
 	}
 }
