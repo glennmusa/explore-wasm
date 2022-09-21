@@ -20,9 +20,20 @@
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
+
 	"features": {
-		"azure-cli": "latest",
-		"golang": "latest",
-		"rust": "latest"
+        "ghcr.io/devcontainers/features/azure-cli:1": {
+            "version": "latest"
+        },
+		"ghcr.io/devcontainers/features/dotnet:1": {
+            "version": "7.0.100-preview.7.22377.5",
+			"installUsingApt": false
+        },
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/rust:1": {
+            "version": "latest"
+        }
 	}
 }
