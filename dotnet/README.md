@@ -137,7 +137,7 @@ That's neat. No difference to the developer or end-user.
 
 There are many tools to inspect and interact with WebAssembly binaries.
 
-Visual Studio Code has a WebAssembly Extension that allows you to convert from WebAssembly binary `.wasm` to `.wat` text representation.
+Visual Studio Code has a [WebAssembly Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm) that allows you to convert from WebAssembly binary `.wasm` to `.wat` text representation.
 
 You can right-click the binary and select "Save as WebAssembly text file" to perform this conversion.
 
