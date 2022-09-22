@@ -30,7 +30,8 @@
 		"vscode": {
 			"extensions": [
 				"dtsvet.vscode-wasm",
-				"bierner.markdown-preview-github-styles"
+				"bierner.markdown-preview-github-styles",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	}

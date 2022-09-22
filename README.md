@@ -1,6 +1,6 @@
 # explore-wasi
 
-A repository to explore [WebAssembly System Interface (WASI)](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md)
+A repository to explore [WebAssembly System Interface (WASI)](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md).
 
 ## Development Tools
 
@@ -10,11 +10,11 @@ It's very easy to [open this repository in a GitHub CodeSpace](https://docs.gith
 
 ## What's in this repository
 
-- [dotnet](./dotnet/README.md) -- a simple .NET 7 WebAssembly module
+- [dotnet](./src/dotnet/README.md) -- a simple .NET 7 WebAssembly module
+- [rust](./src/rust/README.md) -- a Rust WebAssembly module that copies files
 
 ## Context
 
-This repository is largely inspired by this video that highlights how WebAssembly modules are an attractive path to developing and deploying fast, cross-platform, and secure microservices:
+This repository is largely inspired by this video from Matt Butcher from Fermyon that highlights how WebAssembly modules are an attractive path to developing and deploying fast, cross-platform, and secure microservices:
 
 [![WebAssembly and Containers on YouTube](img/wasm-modules-small.png)](https://www.youtube.com/watch?v=OGcm3rHg630)
-
