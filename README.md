@@ -1,6 +1,6 @@
-# explore-wasi
+# explore-wasm
 
-A repository to explore [WebAssembly System Interface (WASI)](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md).
+A repository to explore WebAssembly modules and the [WebAssembly System Interface (WASI)](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md).
 
 ## Development Tools
 
