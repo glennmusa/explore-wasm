@@ -1,6 +1,6 @@
 # explore-wasi
 
-A repository to explore [WebAssembly System Interface (WASI)](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md)
+A repository to explore [WebAssembly System Interface (WASI)](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md).
 
 ## Development Tools
 
@@ -11,6 +11,7 @@ It's very easy to [open this repository in a GitHub CodeSpace](https://docs.gith
 ## What's in this repository
 
 - [dotnet](./src/dotnet/README.md) -- a simple .NET 7 WebAssembly module
+- [rust](./src/rust/README.md) -- a Rust WebAssembly module that copies files
 
 ## Context
 
