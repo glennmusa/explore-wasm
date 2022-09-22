@@ -1,4 +1,4 @@
-# web-assembly-text
+# webassembly-text
 
 In this directory is a WebAssembly text format application that prints `hello world` to demonstrate that WebAssembly can be written in a human-readable format as well as converted back-and-forth from a text file to a binary using the [WebAssembly Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm).
 
@@ -26,7 +26,7 @@ See the [root README](../../README.md#development-tools) for instructions on ope
 
 ## Building the WebAssembly Binary
 
-`wasmtime` can execute WebAssembly Text, but you can use the [WebAssembly Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm) to generate a binary too.
+`wasmtime` can execute WebAssembly text format modules, but you can use the [WebAssembly Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm) to generate a binary too.
 
 1. Right-click the `wasi_app.wat` text file and select `Save as WebAssembly binary file`:
 

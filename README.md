@@ -10,8 +10,11 @@ It's very easy to [open this repository in a GitHub CodeSpace](https://docs.gith
 
 ## What's in this repository
 
-- [dotnet](./src/dotnet/README.md) -- a simple .NET 7 WebAssembly module
-- [rust](./src/rust/README.md) -- a Rust WebAssembly module that copies files
+| dir              | Contents                                                                                     |
+| ---------------- | -------------------------------------------------------------------------------------------- |
+| dotnet           | a .NET WebAssembly module using preview features to demonstrate `.wasm` binaries from .NET   |
+| rust             | a Rust WebAssembly module that copies files to demonstrates sandboxing and filesystem access |
+| webassembly-text | a WebAssembly text format module to demonstrate converting from from `.wat` to `.wasm`       |
 
 ## Context
 
