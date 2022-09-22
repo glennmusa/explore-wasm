@@ -1,6 +1,8 @@
 # web-assembly-text
 
-In this directory is a WebAssembly text format application that prints `hello world` to demonstrate that WebAssembly can be written in a human-readable format as well as converted back-and-forth from a text file to a binary.
+In this directory is a WebAssembly text format application that prints `hello world` to demonstrate that WebAssembly can be written in a human-readable format as well as converted back-and-forth from a text file to a binary using the [WebAssembly Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm).
+
+You could use the `wat2wasm` or `wasm2wat` tools from the [`wabt` toolkit](https://github.com/WebAssembly/wabt) (pronounced "wabbit") to perform these conversions, but that would require building them from source. The Visual Studio Code extension makes this effort much easier.
 
 ## Development Tools
 
