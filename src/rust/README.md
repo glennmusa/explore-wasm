@@ -1,6 +1,8 @@
 # rust
 
-This directory contains a Rust file-cloning application [`wasm32-wasi`](https://doc.rust-lang.org/nightly/nightly-rustc/rustc_target/spec/wasm32_wasi/index.html) Rust target definition to build the application as a WebAssembly binary (.wasm) and instructions on how to demonstrates WebAssembly's sandboxing capabilites using with the [`wasmtime`] runtime](<https://github.com/bytecodealliance/wasmtime>).
+This directory contains a Rust file-cloning application [`wasm32-wasi`](https://doc.rust-lang.org/nightly/nightly-rustc/rustc_target/spec/wasm32_wasi/index.html) Rust target definition to build the application as a WebAssembly binary (.wasm) and instructions on how to demonstrates WASI's sandboxing capabilites through execution with the [`wasmtime` runtime](<https://github.com/bytecodealliance/wasmtime>).
+
+[![WASI only has access to given directories](../../img/wasi-only-act-on-given-directory.png)](https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/)
 
 This is largely a reference of this [WASI tutorial](https://github.com/bytecodealliance/wasmtime/blob/89abd80c3cc4ed549bc3a2b0fd864ccc1af06ad6/docs/WASI-tutorial.md) from bytecodealliance, authors of the `wasmtime` runtime.
 
