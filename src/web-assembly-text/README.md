@@ -15,9 +15,7 @@ See the [root README](../../README.md#development-tools) for instructions on ope
 1. You can use `wasmtime` can directly execute `.wat` files:
 
     ```plaintext
-    {
     wasmtime wasi_app/wasi_app.wat
-    }
     ```
 
 1. And you'll receive the output:
