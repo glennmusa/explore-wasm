@@ -43,3 +43,11 @@ See the [root README](../../README.md#development-tools) for instructions on ope
     ```plaintext
     hello world
     ```
+
+## Building the WebAssembly text format
+
+The Visual Studio Code Extension lets you do the reverse `.wasm` to `.wat` too. That's fun. 
+
+Go try and build the [.NET](../dotnet/README.md) and [Rust](../rust/README.md) WebAssembly binaries and you can convert them too to `.wat`!
+
+![WebAssembly Extension Building a .wat text file](../../img/webassembly-extension-text-file.png)

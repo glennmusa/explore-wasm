@@ -111,7 +111,7 @@ wc -c /workspaces/explore-dotnet-wasi/dotnet/WasiApp/bin/Debug/net7.0/WasiApp.wa
 
 Huh. Why is it ~9MB?
 
-WebAssembly loads and executes just a single binary. 
+WebAssembly loads and executes just a single binary. Your host doesn't care nor needs to know what your application's dependencies are.
 
 The `dotnet build` command built a `.wasm` that contains not just our dependencies, but the .NET runtime (like a [standalone dotnet application](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli)) and all the infrastructure needed to call and execute our dependencies in WebAssembly. 
 
@@ -131,16 +131,4 @@ Now, run our app from our WebAssembly binary with the `wasmtime` runtime.
 wasmtime /workspaces/explore-dotnet-wasi/dotnet/WasiApp/bin/Debug/net7.0/WasiApp.wasm
 ```
 
-That's neat. No difference to the developer or end-user.
-
-## What's in a WebAssembly Binary?
-
-There are many tools to inspect and interact with WebAssembly binaries.
-
-Visual Studio Code has a [WebAssembly Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm) that allows you to convert from WebAssembly binary `.wasm` to `.wat` text representation.
-
-You can right-click the binary and select "Save as WebAssembly text file" to perform this conversion.
-
-![WebAssembly Visual Studio Code Extension](../../img/webassembly-extension-text-file.png)
-
-In the text file, you'll see all the WebAssembly instructions that run your application. You can Find (`CTRL+F`) your application and its dependencies in this file.
+That's neat. No difference to the developer or end-user. All the benefits of WASI.
