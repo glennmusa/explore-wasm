@@ -26,7 +26,7 @@ See the [root README](../../README.md#development-tools) for instructions on ope
 
 ## Building the WebAssembly Binary
 
-Or, you can use the [WebAssembly Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm) to generate a binary too.
+`wasmtime` can execute WebAssembly Text, but you can use the [WebAssembly Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm) to generate a binary too.
 
 1. Right-click the `wasi_app.wat` text file and select `Save as WebAssembly binary file`:
 
