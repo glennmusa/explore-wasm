@@ -10,11 +10,10 @@ It's very easy to [open this repository in a GitHub CodeSpace](https://docs.gith
 
 ## What's in this repository
 
-- [dotnet](./dotnet/README.md) -- a simple .NET 7 WebAssembly module
+- [dotnet](./src/dotnet/README.md) -- a simple .NET 7 WebAssembly module
 
 ## Context
 
-This repository is largely inspired by this video that highlights how WebAssembly modules are an attractive path to developing and deploying fast, cross-platform, and secure microservices:
+This repository is largely inspired by this video from Matt Butcher from Fermyon that highlights how WebAssembly modules are an attractive path to developing and deploying fast, cross-platform, and secure microservices:
 
 [![WebAssembly and Containers on YouTube](img/wasm-modules-small.png)](https://www.youtube.com/watch?v=OGcm3rHg630)
-

@@ -8,7 +8,7 @@ This effort instead looks at using dotnet to run server-side applications that m
 
 This contrast is well illustrated by Steve Sanderson in his talk from Build 2022:
 
-[![Blazor compared with WASI](../img/wasi-sdk.png)](https://www.youtube.com/watch?v=A0vz_BWxIMc)
+[![Blazor compared with WASI](../../img/wasi-sdk.png)](https://www.youtube.com/watch?v=A0vz_BWxIMc)
 
 ## Supporting Talk
 
@@ -18,7 +18,7 @@ See this video by Steve why this is valuable for building cross-platform and hig
 
 The tools you need for this project are bundled in a DevContainer. 
 
-See the [root README](../README.md#development-tools) for instructions on opening this project.
+See the [root README](../../README.md#development-tools) for instructions on opening this project.
 
 ## Building the WebAssembly Binary
 
@@ -141,6 +141,6 @@ Visual Studio Code has a [WebAssembly Extension](https://marketplace.visualstudi
 
 You can right-click the binary and select "Save as WebAssembly text file" to perform this conversion.
 
-![WebAssembly Visual Studio Code Extension](../img/webassembly-extension-text-file.png)
+![WebAssembly Visual Studio Code Extension](../../img/webassembly-extension-text-file.png)
 
 In the text file, you'll see all the WebAssembly instructions that run your application. You can Find (`CTRL+F`) your application and its dependencies in this file.
