@@ -16,16 +16,19 @@ See the [root README](../../README.md#development-tools) for instructions on ope
 
 To build a `.wasm` binary, the application targets the experimental [`wasm32-wasi`](https://doc.rust-lang.org/nightly/nightly-rustc/rustc_target/spec/wasm32_wasi/index.html) target.
 
+1. Let's inspect the application
+
+    ```plaintext
+    cd wasi_app
+    ```
+
 1. The build target was added to the application:
 
     ```plaintext
-    {
-    cd wasi_app
     rustup target add wasm32-wasi
-    }
     ```
 
-1. Which adds the `wasi_app` package to the application's [`Cargo.toml`](./wasi_app/Cargo.toml) manifest:
+1. Which, for reference, adds the `wasi_app` package to the application's [`Cargo.toml`](./wasi_app/Cargo.toml) manifest:
 
     ```toml
     [package]
