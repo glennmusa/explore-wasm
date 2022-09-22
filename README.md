@@ -10,11 +10,11 @@ It's very easy to [open this repository in a GitHub CodeSpace](https://docs.gith
 
 ## What's in this repository
 
-| dir              | Contents                                                                                     |
-| ---------------- | -------------------------------------------------------------------------------------------- |
-| dotnet           | a .NET WebAssembly module using preview features to demonstrate `.wasm` binaries from .NET   |
-| rust             | a Rust WebAssembly module that copies files to demonstrates sandboxing and filesystem access |
-| webassembly-text | a WebAssembly text format module to demonstrate converting from from `.wat` to `.wasm`       |
+|                                            | Contents                                                                               |
+| -------------------------------------------| :------------------------------------------------------------------------------------- |
+| [dotnet](./src/dotnet)                     | a WebAssembly module using preview features to demonstrate `.wasm` binaries from .NET  |
+| [rust](./src/rust)                         | a WebAssembly module that copies files to demonstrate sandboxing and filesystem access |
+| [webassembly-text](./src/webassembly-text) | a WebAssembly text format module to demonstrate converting from from `.wat` to `.wasm` |
 
 ## Context
 
