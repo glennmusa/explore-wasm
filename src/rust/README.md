@@ -4,7 +4,7 @@ This directory contains a Rust file-cloning application using the experimental [
 
 [![WASI only has access to given directories](../../img/wasi-only-act-on-given-directory.png)](https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/)
 
-This is largely a reference of this [WASI tutorial](https://github.com/bytecodealliance/wasmtime/blob/89abd80c3cc4ed549bc3a2b0fd864ccc1af06ad6/docs/WASI-tutorial.md) from bytecodealliance, authors of the `wasmtime` runtime.
+This is largely a reference of this [WASI tutorial](https://github.com/bytecodealliance/wasmtime/blob/89abd80c3cc4ed549bc3a2b0fd864ccc1af06ad6/docs/WASI-tutorial.md) from Bytecode Alliance, authors of the `wasmtime` runtime.
 
 ## Development Tools
 
