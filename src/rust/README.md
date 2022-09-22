@@ -79,7 +79,7 @@ We can run the `.wasm` binary with the `wasmtime` runtime.
 
     We receive this error from WebAssembly's sandboxing! Our program is attempting to access `test.txt`, but has not been given the capability to do so.
 
-    Notice our application did not have to anything at all to get this capability, it was all handled by the host that invoked the application. Pretty nifty.
+    Notice our application did not have specify anything in source or deploy with any flags to get this security capability, it was all handled by the runtime that invoked the application. Pretty nifty.
 
 1. Let's give our application the capability to access the files we need it to:
 
