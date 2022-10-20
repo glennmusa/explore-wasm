@@ -21,3 +21,4 @@ It's very easy to [open this repository in a GitHub CodeSpace](https://docs.gith
 This repository is largely inspired by this video from Matt Butcher from Fermyon that highlights how WebAssembly modules are an attractive path to developing and deploying fast, cross-platform, and secure microservices:
 
 [![WebAssembly and Containers on YouTube](img/wasm-modules-small.png)](https://www.youtube.com/watch?v=OGcm3rHg630)
+
